@@ -1,0 +1,38 @@
+body {
+  background: url("img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.flexbox div {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox div:first-child {
+  background-color: rgba(15, 190, 248, 0.5);
+}
+
+.flexbox div:nth-child(2) {
+  background-color: rgba(31, 62, 72, 0.5);
+}
+
+.flexbox div:nth-child(3) {
+  background-color: rgba(0, 127, 253, 0.5);
+}
+
+.flexbox div:last-child {
+  background-color: rgba(234, 244, 247, 0.783);
+}
